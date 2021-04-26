@@ -6,10 +6,11 @@ close all
 % -6 and -2.4
 % -7 and -2.8
 
-P1 = -7.5;
-P2 = -3.3;
+P1 = 0;
+P2 = -1;
+P3 = 0;
 
-linacVals = struct('P1',-19.2+P1,'P2',-38.35+P2,'P3',-45,'V1',0,'V2',0,'qi',0,'dx',0,'dy',0);% The defaults for full compression case 
+linacVals = struct('P1',-19.2+P1,'P2',-38.35+P2,'P3',-45+P3,'V1',0,'V2',0,'qi',0,'dx',0,'dy',0);% The defaults for full compression case 
 tic
 dati = twobunch_scan_fcn_newS20_v3(linacVals);
 toc

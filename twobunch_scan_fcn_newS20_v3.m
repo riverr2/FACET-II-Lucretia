@@ -4,7 +4,7 @@ function [data]=twobunch_scan_fcn_newS20_v3(scanparams)
 global BEAMLINE PS KLYSTRON WF
 
 load 2bunch
-load beam_10_fac.mat
+load beam_70_dt_50_fac.mat
 Beam = end_inj;
 
 %istart = 45;
